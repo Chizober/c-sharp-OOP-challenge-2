@@ -3,15 +3,19 @@
  {
  class FindLeapYear
 {
-     public int currentYear;
-     public int  total = 20;
-     public int count = 0;
+      int currentYear;
+      int  total = 20;
+      int count = 0;
+      int first = 4;
+      int  second = 0;
+      int third = 0;
+      int fourth = 400;
      public void LeapYear( int currentYear)
 {
       while (count < total)
    {
    currentYear = currentYear += 1;
-     if((currentYear % 4 == 0) && (currentYear  % 100 != 0) || (currentYear % 400 == 0))
+     if((currentYear % first == second) && (currentYear  % third != second) || (currentYear % fourth == second))
      {
       count +=1;
       Console.WriteLine($"{currentYear} is a leap year");
