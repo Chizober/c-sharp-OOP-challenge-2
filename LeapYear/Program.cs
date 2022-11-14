@@ -8,7 +8,7 @@
       int count = 0;
       int first = 4;
       int  second = 0;
-      int third = 0;
+      int third = 100;
       int fourth = 400;
      public void LeapYear( int currentYear)
 {
